@@ -5,6 +5,7 @@ import './index.css'
 import Layout from './Layout.jsx'
 import Contact from './Contact.jsx'
 import Home from './Home.jsx'
+import Team from './Team.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +23,10 @@ createRoot(document.getElementById('root')).render(
               path: 'contact', // "/contact" (<parent-path>/<childern-path>)
               element: <Contact/>
             },
+            {
+              path: 'Team',
+              element: <Team/>
+            }
           ]
         }
       ])}>    

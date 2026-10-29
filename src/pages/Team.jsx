@@ -1,4 +1,4 @@
-import Person from './assets/Person.webp'
+import Person from '../assets/Person.webp'
 function Team(){
 
     return(

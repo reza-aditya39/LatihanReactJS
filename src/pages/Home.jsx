@@ -1,10 +1,10 @@
-import thumbnail1 from './assets/Buku Utama.jpeg'
-import thumbnail2 from './assets/Atomic Habits.webp'
-import thumbnail3 from './assets/Berani Tidak Disukai.webp'
-import thumbnail4 from './assets/Sebuah Seni untuk Bersikap Bodo Amat.webp'
-import thumbnail5 from './assets/The Book You Wish Your Parent had Read.webp'
-import thumbnail6 from './assets/Filosofi Teras.webp'
-import thumbnail7 from './assets/How to Win Friend and Influence People.webp'
+import thumbnail1 from '../assets/Buku Utama.jpeg'
+import thumbnail2 from '../assets/Atomic Habits.webp'
+import thumbnail3 from '../assets/Berani Tidak Disukai.webp'
+import thumbnail4 from '../assets/Sebuah Seni untuk Bersikap Bodo Amat.webp'
+import thumbnail5 from '../assets/The Book You Wish Your Parent had Read.webp'
+import thumbnail6 from '../assets/Filosofi Teras.webp'
+import thumbnail7 from '../assets/How to Win Friend and Influence People.webp'
 <assets />
 
 function Home(){
@@ -38,6 +38,7 @@ return(
                     </p> 
                 </div> 
             </div> 
+        {/* Katalog Buku */}
         </section> 
             <div className="album py-5 bg-body-tertiary">  
                 <div className="container"> 
